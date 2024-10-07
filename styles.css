@@ -217,3 +217,24 @@ h3 {
     font-weight: 700;
     padding: 10px 30px;
 }
+
+/* SECTION-SIX STYLES */
+
+.section-six {
+    background-color: black;
+}
+
+.footer-box {
+    margin: 0 auto;
+    padding: 0;
+    width: 900px;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-text {
+    color: white;
+    text-align: center;
+}
