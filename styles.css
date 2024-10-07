@@ -60,6 +60,7 @@ li {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding: 40px 0px;
 }
 
 .box-left {
@@ -74,7 +75,7 @@ li {
     padding: 0;
 }
 
-.veiwport-text {
+.viewport-text {
     font-size: 18px;
     color: white;
 }
@@ -91,6 +92,7 @@ li {
 
 .piggy {
     width: 350px;
+    height: 350px;
     object-fit: cover;
 }
 
@@ -102,7 +104,7 @@ li {
 
 .heading-one {
     margin: 0;
-    padding: 50px 0px;
+    padding: 40px 0px;
     font-size: 36;
     font-weight: 900;
     text-align: center;
@@ -111,4 +113,31 @@ li {
 .container {
     width: 900px;
     margin: 0 auto;
+}
+
+.empty-box {
+    border-style: solid;
+    border-color: black;
+    border-radius: 15px;
+    height: 150px;
+    width: 150px;
+}
+
+.img-grid-container {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    padding: 0px 0px 60px 0px;
+}
+
+.flex-item {
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.img-grid-text {
+    text-align: center;
 }
